@@ -1,0 +1,492 @@
+	/*======================================
+	 GOOGLE FONT
+	=======================================*/
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+	*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+
+	html{
+		scroll-behavior:smooth;
+	}
+
+	body{
+		font-family:'Poppins',sans-serif;
+		color:#333;
+		line-height:1.7;
+		background:#fff;
+	}
+
+	/*=========================
+	COMMON
+	==========================*/
+
+	section{
+		padding:90px 0;
+	}
+
+	img{
+		max-width:100%;
+		display:block;
+	}
+
+	a{
+		text-decoration:none;
+	}
+
+	.section-tag{
+		display:inline-block;
+		color:#dcd7ff;
+		font-weight:600;
+		text-transform:uppercase;
+		letter-spacing:1px;
+	}
+
+	.section-title{
+		font-size:42px;
+		font-weight:700;
+		margin-top:15px;
+		margin-bottom:20px;
+	}
+
+	.section-text{
+		color:#666;
+		font-size:17px;
+	}
+
+	/*=========================
+	NAVBAR
+	==========================*/
+
+	.navbar{
+		padding:18px 0;
+		transition:.3s;
+	}
+
+	.navbar-brand{
+		font-size:30px;
+		font-weight:700;
+		color:#0d8b47 !important;
+	}
+
+	.nav-link{
+		margin-left:18px;
+		color:#333 !important;
+		font-weight:500;
+	}
+
+	.nav-link:hover{
+		color:#0d8b47 !important;
+	}
+
+	/*=========================
+	BUTTONS
+	==========================*/
+
+	.btn-success{
+		background:#0d8b47;
+		border:none;
+		padding:14px 32px;
+		border-radius:50px;
+		font-weight:600;
+	}
+
+	.btn-success:hover{
+		background:#0b713a;
+	}
+
+	.btn-outline-success{
+		border:2px solid #0d8b47;
+		color:#0d8b47;
+		padding:14px 32px;
+		border-radius:50px;
+		font-weight:600;
+	}
+
+	.btn-outline-success:hover{
+		background:#0d8b47;
+		color:#fff;
+	}
+
+	/*=========================
+	HERO
+	==========================*/
+
+	.hero{
+		padding-top:170px;
+		padding-bottom:20px;
+		background:#f7fbf8;
+	}
+
+	.hero h1{
+		font-size:58px;
+		font-weight:700;
+		line-height:1.2;
+		margin-bottom:25px;
+	}
+
+	.hero p{
+		color:#666;
+		font-size:18px;
+		margin-bottom:35px;
+	}
+
+	.hero img{
+		border-radius:20px;
+	}
+
+	/*=========================
+	EXPERTISE
+	==========================*/
+
+	.expertise{
+		background:#fff;
+	}
+
+	.card-box{
+		background:#fff;
+		border-radius:15px;
+		padding:35px;
+		box-shadow:0 10px 30px rgba(0,0,0,.08);
+		transition:.4s;
+		height:100%;
+	}
+
+	.card-box:hover{
+		transform:translateY(-8px);
+	}
+
+	.card-box i{
+		width:70px;
+		height:70px;
+		background:#0d8b47;
+		color:#fff;
+		border-radius:50%;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		font-size:28px;
+		margin-bottom:20px;
+	}
+
+	.card-box h4{
+		font-size:24px;
+		margin-bottom:15px;
+	}
+
+	.card-box p{
+		color:#666;
+	}
+
+	/*=========================
+	MANUFACTURING
+	==========================*/
+
+	.manufacturing img{
+		border-radius:20px;
+	}
+
+	.manufacturing{
+		background:#f9fbfa;
+	}
+
+	/*=========================
+	CAPABILITIES
+	==========================*/
+
+	.capability-box{
+		background:#fff;
+		border-radius:18px;
+		padding:35px;
+		box-shadow:0 10px 30px rgba(0,0,0,.07);
+		text-align:center;
+		transition:.4s;
+		height:100%;
+	}
+
+	.capability-box:hover{
+		transform:translateY(-8px);
+	}
+
+	.capability-box i{
+		font-size:42px;
+		color:#0d8b47;
+		margin-bottom:20px;
+	}
+
+	.capability-box h4{
+		margin-bottom:15px;
+	}
+
+
+
+	/*=========================
+	PARTNERSHIP
+	==========================*/
+
+	.partnership{
+		background:#f7f9fb;
+	}
+
+	.partner-card{
+		background:#fff;
+		padding:40px;
+		border-radius:20px;
+		box-shadow:0 12px 30px rgba(0,0,0,.08);
+		transition:.35s;
+	}
+
+	.partner-card:hover{
+		transform:translateY(-10px);
+		box-shadow:0 18px 40px rgba(0,0,0,.12);
+	}
+
+	.partner-icon{
+		width:80px;
+		height:80px;
+		background:#0d8b47;
+		color:#fff;
+		border-radius:50%;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		font-size:32px;
+		margin-bottom:25px;
+	}
+
+	.partner-card h4{
+		font-size:28px;
+		font-weight:600;
+		margin-bottom:20px;
+	}
+
+	.partner-card ul li{
+		padding:10px 0;
+		color:#555;
+		border-bottom:1px solid #eee;
+	}
+
+	/*=========================
+	INTERNATIONAL SUPPORT
+	==========================*/
+
+	.international-support{
+		background:#fff;
+	}
+
+	.international-support img{
+		border-radius:20px;
+		box-shadow:0 15px 35px rgba(0,0,0,.08);
+	}
+
+	.international-support ul{
+		padding:0;
+	}
+
+	.international-support ul li{
+		list-style:none;
+		padding:10px 0;
+		font-size:16px;
+		color:#555;
+	}
+
+	/*=========================
+	CERTIFICATIONS
+	==========================*/
+
+	.certifications{
+		background:#f5f8f7;
+	}
+
+	.certificate-box{
+		background:#fff;
+		padding:30px 20px;
+		border-radius:18px;
+		transition:.3s;
+		box-shadow:0 10px 25px rgba(0,0,0,.08);
+	}
+
+	.certificate-box:hover{
+		transform:translateY(-8px);
+	}
+
+	.certificate-box h6{
+		margin-top:18px;
+		font-weight:600;
+	}
+
+	/*=========================
+	CTA SECTION
+	==========================*/
+
+	.cta-section{
+		background:linear-gradient(135deg,#51479b,#120949);
+		color:#fff;
+	}
+
+	.cta-box{
+		padding:70px 40px;
+	}
+
+	.cta-box h2{
+		color:#fff;
+		font-weight:700;
+	}
+
+	.cta-box p{
+		color:#f3f3f3;
+		max-width:700px;
+		margin:auto;
+	}
+
+	.cta-section .btn-success{
+		background:#fff;
+		color:#ff890d;
+	}
+
+	.cta-section .btn-success:hover{
+		background:#f5f5f5;
+	}
+
+	.cta-section .btn-outline-light{
+		border:2px solid #fff;
+	}
+
+	/*=========================
+	FOOTER
+	==========================*/
+
+	.footer{
+		background:#004e95;
+		color:#d9d9d9;
+		padding:80px 0 25px;
+	}
+
+	.footer-logo{
+		color:#fff;
+		font-size:32px;
+		margin-bottom:20px;
+	}
+
+	.footer h5{
+		color:#fff;
+		margin-bottom:25px;
+	}
+
+	.footer-links{
+		list-style:none;
+		padding:0;
+	}
+
+	.footer-links li{
+		margin-bottom:12px;
+	}
+
+	.footer-links a{
+		color:#d9d9d9;
+		transition:.3s;
+	}
+
+	.footer-links a:hover{
+		color:#34d399;
+	}
+
+	.social-icons a{
+		display:inline-flex;
+		width:42px;
+		height:42px;
+		background:#1f2937;
+		color:#fff;
+		align-items:center;
+		justify-content:center;
+		border-radius:50%;
+		margin-right:10px;
+		transition:.3s;
+	}
+
+	.social-icons a:hover{
+		background:#0d8b47;
+	}
+
+	.footer-line{
+		margin:50px 0 25px;
+		border-color:#374151;
+	}
+
+	/*=========================
+	RESPONSIVE
+	==========================*/
+
+	@media(max-width:991px){
+
+	.hero{
+		text-align:center;
+		padding-top:140px;
+	}
+
+	.hero h1{
+		font-size:42px;
+	}
+
+	.section-title{
+		font-size:34px;
+	}
+
+	.partner-card,
+	.capability-box,
+	.card-box{
+		margin-bottom:25px;
+	}
+
+	.footer{
+		text-align:center;
+	}
+
+	}
+
+	@media(max-width:767px){
+
+	.hero h1{
+		font-size:34px;
+	}
+
+	.section-title{
+		font-size:28px;
+	}
+
+	.hero{
+		padding-top:120px;
+	}
+
+	.btn-success,
+	.btn-outline-success{
+		width:100%;
+		margin-bottom:15px;
+	}
+
+	.cta-box{
+		padding:45px 25px;
+	}
+
+	.footer-logo{
+		font-size:28px;
+	}
+
+	.partner-icon{
+		margin:auto auto 20px;
+	}
+	
+	
+	
+	.pad
+	{
+		padding:15px;
+	}
+	
+
+	}
+	
+	

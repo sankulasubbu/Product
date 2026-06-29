@@ -1,0 +1,624 @@
+/*=========================================
+GOOGLE FONT
+=========================================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    color:#222;
+    background:#fff;
+    overflow-x:hidden;
+    line-height:1.7;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+}
+
+/*=========================================
+NAVBAR
+=========================================*/
+
+.navbar{
+    padding:15px 0;
+    background:#fff;
+    transition:.3s;
+    z-index:999;
+}
+
+.navbar-brand img{
+    height:58px;
+}
+
+.nav-link{
+    color:#333 !important;
+    font-weight:500;
+    margin:0 10px;
+}
+
+.nav-link:hover,
+.nav-link.active{
+    color:#0A8F4D !important;
+}
+
+.dropdown-menu{
+    border:none;
+    border-radius:15px;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.dropdown-item{
+    padding:12px 20px;
+}
+
+.dropdown-item:hover{
+    background:#0A8F4D;
+    color:#fff;
+}
+
+/*=========================================
+BUTTONS
+=========================================*/
+
+.btn-orange{
+
+    background:#ff7a00;
+    color:#fff;
+    padding:14px 32px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+
+}
+
+.btn-orange:hover{
+
+    background:#e26d00;
+    color:#fff;
+
+}
+
+.btn-outline-light{
+
+    border:2px solid #fff;
+    color:#fff;
+    border-radius:50px;
+    padding:14px 32px;
+
+}
+
+.btn-outline-light:hover{
+
+    background:#fff;
+    color:#0A8F4D;
+
+}
+
+/*=========================================
+HERO
+=========================================*/
+
+.manufacturing-hero{
+
+    padding:100px 0 60px;
+    background:linear-gradient(135deg,#f7fbfd,#ffffff);
+
+}
+
+.breadcrumb-custom{
+
+    margin-bottom:35px;
+    font-size:15px;
+
+}
+
+.breadcrumb-custom a{
+
+    color:#666;
+
+}
+
+.breadcrumb-custom span{
+
+    margin:0 8px;
+
+}
+
+.breadcrumb-custom .active{
+
+    color:#0A8F4D;
+    font-weight:600;
+
+}
+
+.manufacturing-hero h1{
+
+    font-size:56px;
+    font-weight:800;
+    line-height:1.15;
+
+}
+
+.manufacturing-hero h1 span{
+
+    color:#0A8F4D;
+
+}
+
+.orange-line{
+
+    width:90px;
+    height:4px;
+    background:#ff7a00;
+    border-radius:20px;
+    margin:25px 0;
+
+}
+
+.manufacturing-hero p{
+
+    color:#666;
+    font-size:17px;
+    margin-bottom:35px;
+
+}
+
+.hero-buttons .btn{
+
+    margin-right:15px;
+
+}
+
+.hero-image{
+
+    border-radius:25px;
+    box-shadow:0 25px 60px rgba(0,0,0,.08);
+
+}
+
+/*=========================================
+FEATURE STRIP
+=========================================*/
+
+.feature-strip{
+
+    margin-top:70px;
+    background:#fff;
+    border-radius:25px;
+    box-shadow:0 20px 50px rgba(0,0,0,.08);
+    padding:30px;
+
+}
+
+.feature-item{
+
+    padding:15px;
+
+}
+
+.feature-item i{
+
+    font-size:38px;
+    color:#0A8F4D;
+    margin-bottom:15px;
+
+}
+
+.feature-item h6{
+
+    font-size:17px;
+    font-weight:600;
+    margin:0;
+
+}
+
+/*=========================================
+COMMON SECTION
+=========================================*/
+
+.section-tag{
+
+    color:#0A8F4D;
+    letter-spacing:2px;
+    font-size:14px;
+    font-weight:600;
+
+}
+
+.section-title{
+
+    font-size:42px;
+    font-weight:700;
+    margin-top:12px;
+
+}
+
+.title-line{
+
+    width:80px;
+    height:4px;
+    background:#ff7a00;
+    margin:20px auto;
+    border-radius:20px;
+
+}
+
+/*=========================================
+FACILITY SECTION
+=========================================*/
+
+.facility-section{
+
+    padding:100px 0;
+
+}
+
+.facility-card{
+
+    background:#fff;
+    border-radius:22px;
+    overflow:hidden;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    transition:.35s;
+    height:100%;
+
+}
+
+.facility-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.facility-card img{
+
+    width:100%;
+    height:220px;
+    object-fit:cover;
+
+}
+
+.facility-icon{
+
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:30px;
+    margin:-38px auto 20px;
+    position:relative;
+    z-index:5;
+
+}
+
+.bg-primary{
+
+    background:#0A8F4D !important;
+
+}
+
+.bg-orange{
+
+    background:#ff7a00;
+
+}
+
+.facility-card h5{
+
+    text-align:center;
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:15px;
+
+}
+
+.facility-card p{
+
+    padding:0 25px 30px;
+    text-align:center;
+    color:#666;
+
+}
+
+
+
+
+
+
+/*=========================================
+CORE STRENGTHS
+=========================================*/
+
+.strength-quality{
+    padding:100px 0;
+    background:#f8fbfd;
+}
+
+.strength-list,
+.quality-system{
+    margin-top:40px;
+}
+
+.strength-item,
+.quality-step{
+    display:flex;
+    align-items:flex-start;
+    gap:20px;
+    background:#fff;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:18px;
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.strength-item:hover,
+.quality-step:hover{
+    transform:translateY(-8px);
+}
+
+.strength-icon,
+.quality-icon{
+    width:65px;
+    height:65px;
+    min-width:65px;
+    border-radius:50%;
+    background:#0A8F4D;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+}
+
+.strength-item h5,
+.quality-step h5{
+    font-size:21px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.strength-item p,
+.quality-step p{
+    color:#666;
+    margin-bottom:0;
+    line-height:1.7;
+}
+
+/*=========================================
+CTA SECTION
+=========================================*/
+
+.manufacturing-cta{
+    padding:90px 0;
+    background:linear-gradient(135deg,#0A8F4D,#14b35b);
+}
+
+.cta-wrapper{
+    background:rgba(255,255,255,.08);
+    border-radius:25px;
+    padding:60px;
+    color:#fff;
+}
+
+.cta-wrapper h2{
+    font-size:46px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.cta-wrapper p{
+    font-size:18px;
+    opacity:.95;
+    line-height:1.8;
+}
+
+.cta-wrapper .btn{
+    margin-top:15px;
+}
+
+/*=========================================
+FOOTER
+=========================================*/
+
+.footer{
+    background:#101820;
+    color:#d9d9d9;
+    padding:80px 0 25px;
+}
+
+.footer-logo{
+    height:55px;
+}
+
+.footer h5{
+    color:#fff;
+    margin-bottom:22px;
+    font-size:18px;
+    font-weight:600;
+}
+
+.footer ul{
+    list-style:none;
+    padding:0;
+}
+
+.footer ul li{
+    margin-bottom:12px;
+}
+
+.footer ul li a{
+    color:#d6d6d6;
+    transition:.3s;
+}
+
+.footer ul li a:hover{
+    color:#28c76f;
+}
+
+.footer p{
+    color:#cfcfcf;
+}
+
+.footer hr{
+    border-color:#2d3748;
+    margin:40px 0 20px;
+}
+
+.footer i{
+    color:#28c76f;
+    margin-right:10px;
+}
+
+/*=========================================
+SOCIAL ICONS
+=========================================*/
+
+.social-icons a{
+    width:42px;
+    height:42px;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    background:#1d2733;
+    color:#fff;
+    border-radius:50%;
+    margin-right:10px;
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    background:#0A8F4D;
+    transform:translateY(-5px);
+}
+
+/*=========================================
+COPYRIGHT
+=========================================*/
+
+.copyright{
+    margin-bottom:0;
+}
+
+.footer .text-md-end a{
+    color:#d6d6d6;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer .text-md-end a:hover{
+    color:#28c76f;
+}
+
+/*=========================================
+RESPONSIVE
+=========================================*/
+
+@media (max-width:991px){
+
+.manufacturing-hero{
+    text-align:center;
+}
+
+.manufacturing-hero h1{
+    font-size:42px;
+}
+
+.hero-image{
+    margin-top:40px;
+}
+
+.hero-buttons .btn{
+    display:block;
+    width:100%;
+    margin-bottom:15px;
+}
+
+.feature-strip{
+    margin-top:50px;
+}
+
+.cta-wrapper{
+    text-align:center;
+    padding:40px;
+}
+
+.cta-wrapper h2{
+    font-size:34px;
+}
+
+}
+
+@media (max-width:768px){
+
+.manufacturing-hero{
+    padding:70px 0;
+}
+
+.manufacturing-hero h1{
+    font-size:32px;
+}
+
+.section-title{
+    font-size:30px;
+}
+
+.feature-item{
+    margin-bottom:20px;
+}
+
+.facility-card{
+    margin-bottom:20px;
+}
+
+.strength-item,
+.quality-step{
+    flex-direction:column;
+    text-align:center;
+}
+
+.strength-icon,
+.quality-icon{
+    margin:0 auto;
+}
+
+.cta-wrapper{
+    padding:30px 20px;
+}
+
+.cta-wrapper h2{
+    font-size:28px;
+}
+
+.cta-wrapper p{
+    font-size:16px;
+}
+
+.footer{
+    text-align:center;
+}
+
+.footer .text-md-end{
+    text-align:center !important;
+    margin-top:10px;
+}
+
+.social-icons{
+    margin-bottom:30px;
+}
+
+}
